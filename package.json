@@ -1,7 +1,7 @@
 {
   "name": "angular-github-action-amazon-s3",
   "version": "1.0.0",
-  "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/prempratap09)",
+  "author": "Rodrigo Kamada <prempratap@gmail.com> (https://github.com/prempratap09)",
   "license": "MIT",
   "private": true,
   "scripts": {
