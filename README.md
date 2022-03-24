@@ -95,7 +95,7 @@ Note:
         "s3:GetObject"
       ],
       "Resource": [
-        "arn:aws:s3:::angular-github-actions-amazon-s3/*"
+        "arn:aws:s3:::angular-github-action-amazon-s3/*"
       ]
     }
   ]
@@ -317,7 +317,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: sa-east-1
+        aws-region: ap-south-1
 
     - name: Checkout
       uses: actions/checkout@v2
