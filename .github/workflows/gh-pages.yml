@@ -27,7 +27,8 @@ jobs:
       run: npm install
 
     - name: Run tests
-      run: npm run test:headless
+      #run: npm run test:headless
+      run: ng add  @nguniversal/express-engine
 
     - name: Build
       run: npm run prerender
